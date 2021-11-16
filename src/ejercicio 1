@@ -1,1 +1,9 @@
-hola
+nano "01-hola-mundo.sh"
+#######################
+#Script
+
+echo "hola $*/Hola mundo "
+
+#######################
+ chmod 777 01-hola-mundo.sh
+ /01-hola-mundo.sh
