@@ -1,0 +1,8 @@
+nano "02-holaparametros.sh"
+##########################
+#Script
+echo "hola $#/ ;"
+
+##########################
+./02-holaparametros.sh
+hola 0/ ;
