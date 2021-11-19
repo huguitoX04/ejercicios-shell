@@ -1,0 +1,14 @@
+nano 04-hola-parametrosseparados.sh
+###################################
+
+#! /bin/bash
+# si número de parámetros menor o igual que 0
+if [ $# -le 0 ]; then
+         echo "Hay que introducir al menos un parámetro."
+        exit 1
+fi
+echo "Hola $@!"
+###################################
+chmod 777 04-hola-parametrosseparados.sh
+./04-hola-parametrosseparados.sh
+Hay que introducir al menos un parámetro.
